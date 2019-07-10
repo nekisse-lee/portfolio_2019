@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.nekisse.DemoApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-12-28T07:57:37" hostname="MacBook-Pro" time="0.111">
+  <properties/>
+  <testcase name="contextLoads" classname="com.nekisse.DemoApplicationTests" time="0.111"/>
+  <system-out><![CDATA[16:57:16.461 [Test worker] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.nekisse.DemoApplicationTests]
+16:57:16.475 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+16:57:16.520 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+16:57:16.616 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.nekisse.DemoApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+16:57:16.651 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.nekisse.DemoApplicationTests], using SpringBootContextLoader
+16:57:16.655 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.nekisse.DemoApplicationTests]: class path resource [com/nekisse/DemoApplicationTests-context.xml] does not exist
+16:57:16.658 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.nekisse.DemoApplicationTests]: class path resource [com/nekisse/DemoApplicationTestsContext.groovy] does not exist
+16:57:16.659 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.nekisse.DemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+16:57:16.663 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.nekisse.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:57:16.843 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.nekisse.DemoApplicationTests]
+16:57:16.880 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+16:57:16.882 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+16:57:16.885 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+16:57:16.927 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/nekisse/] to resources [URL [file:/Users/nekisse/Documents/intellij_workspace/aws_portfolio/build/classes/java/test/com/nekisse/], URL [file:/Users/nekisse/Documents/intellij_workspace/aws_portfolio/build/classes/java/main/com/nekisse/]]
+16:57:16.929 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/Users/nekisse/Documents/intellij_workspace/aws_portfolio/build/classes/java/test/com/nekisse]
+16:57:16.933 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/Users/nekisse/Documents/intellij_workspace/aws_portfolio/build/classes/java/test/com/nekisse] for files matching pattern [/Users/nekisse/Documents/intellij_workspace/aws_portfolio/build/classes/java/test/com/nekisse/*.class]
+16:57:16.940 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/Users/nekisse/Documents/intellij_workspace/aws_portfolio/build/classes/java/main/com/nekisse]
+16:57:16.941 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/Users/nekisse/Documents/intellij_workspace/aws_portfolio/build/classes/java/main/com/nekisse] for files matching pattern [/Users/nekisse/Documents/intellij_workspace/aws_portfolio/build/classes/java/main/com/nekisse/*.class]
+16:57:16.943 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/nekisse/*.class] to resources [file [/Users/nekisse/Documents/intellij_workspace/aws_portfolio/build/classes/java/test/com/nekisse/DemoApplicationTests.class], file [/Users/nekisse/Documents/intellij_workspace/aws_portfolio/build/classes/java/main/com/nekisse/DemoApplication.class], file [/Users/nekisse/Documents/intellij_workspace/aws_portfolio/build/classes/java/main/com/nekisse/HelloWorld.class]]
+16:57:17.053 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/nekisse/Documents/intellij_workspace/aws_portfolio/build/classes/java/main/com/nekisse/DemoApplication.class]
+16:57:17.057 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.nekisse.DemoApplication for test class com.nekisse.DemoApplicationTests
+16:57:17.070 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.nekisse.DemoApplicationTests]: using defaults.
+16:57:17.086 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+16:57:17.128 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@26bb90e7, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@51a0488d, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@70705bb3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@21a02b51, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5be6ab2a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@8d174fb, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7a8e1b91, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5ad45d32, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@348512b9, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3770de7e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3da81992, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@456dfed8]
+16:57:17.150 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.nekisse.DemoApplicationTests]
+16:57:17.152 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.nekisse.DemoApplicationTests]
+16:57:17.153 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.nekisse.DemoApplicationTests]
+16:57:17.154 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.nekisse.DemoApplicationTests]
+16:57:17.172 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@2178e2cf testClass = DemoApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@149f0ce2 testClass = DemoApplicationTests, locations = '{}', classes = '{class com.nekisse.DemoApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@2a18c121, org.springframework.boot.test.context.SpringBootTestContextCustomizer@744e2e51, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@1479bb8e, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@38f74b0c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+16:57:17.178 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.nekisse.DemoApplicationTests]
+16:57:17.181 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.nekisse.DemoApplicationTests]
+16:57:17.305 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+16:57:17.306 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+16:57:17.308 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+16:57:17.314 [Test worker] DEBUG org.springframework.core.env.MutablePropertySources - Adding [inline] PropertySource with highest search precedence
+16:57:17.326 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+16:57:17.327 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [Inlined Test Properties] PropertySource with highest search precedence
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.6.RELEASE)
+
+2018-12-28 16:57:18.377  INFO 6855 --- [    Test worker] com.nekisse.DemoApplicationTests         : Starting DemoApplicationTests on MacBook-Pro with PID 6855 (started by nekisse in /Users/nekisse/Documents/intellij_workspace/aws_portfolio)
+2018-12-28 16:57:18.382  INFO 6855 --- [    Test worker] com.nekisse.DemoApplicationTests         : No active profile set, falling back to default profiles: default
+2018-12-28 16:57:18.738  INFO 6855 --- [    Test worker] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@20192ce2: startup date [Fri Dec 28 16:57:18 KST 2018]; root of context hierarchy
+2018-12-28 16:57:27.393  INFO 6855 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-12-28 16:57:27.470  INFO 6855 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-12-28 16:57:27.895  INFO 6855 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2018-12-28 16:57:27.898  INFO 6855 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-12-28 16:57:27.900  INFO 6855 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2018-12-28 16:57:28.132  INFO 6855 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-12-28 16:57:28.501  INFO 6855 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-12-28 16:57:30.820  INFO 6855 --- [    Test worker] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000227: Running hbm2ddl schema export
+Hibernate: 
+    drop table link if exists
+Hibernate: 
+    drop table portfolio if exists
+Hibernate: 
+    drop table portfolio_image if exists
+Hibernate: 
+    create table link (
+        num bigint not null,
+        image varchar(255),
+        link varchar(255),
+        primary key (num)
+    )
+Hibernate: 
+    create table portfolio (
+        idx bigint generated by default as identity,
+        content varchar(255),
+        image varchar(255),
+        title varchar(255),
+        primary key (idx)
+    )
+Hibernate: 
+    create table portfolio_image (
+        num bigint not null,
+        image_name varchar(255),
+        primary key (num)
+    )
+2018-12-28 16:57:30.893  INFO 6855 --- [    Test worker] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000476: Executing import script '/import.sql'
+2018-12-28 16:57:30.925  INFO 6855 --- [    Test worker] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000230: Schema export complete
+2018-12-28 16:57:31.201  INFO 6855 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-12-28 16:57:35.027  INFO 6855 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@20192ce2: startup date [Fri Dec 28 16:57:18 KST 2018]; root of context hierarchy
+2018-12-28 16:57:35.515  INFO 6855 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.nekisse.controllers.HomeController.Home(org.springframework.ui.Model)
+2018-12-28 16:57:35.548  INFO 6855 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-28 16:57:35.566  INFO 6855 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-28 16:57:35.805  INFO 6855 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-28 16:57:35.808  INFO 6855 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-28 16:57:35.998  INFO 6855 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-28 16:57:37.057  INFO 6855 --- [    Test worker] o.s.w.s.v.f.FreeMarkerConfigurer         : ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-12-28 16:57:37.824  INFO 6855 --- [    Test worker] com.nekisse.DemoApplicationTests         : Started DemoApplicationTests in 20.47 seconds (JVM running for 24.647)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
